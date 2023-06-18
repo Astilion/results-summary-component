@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+}
+.container .result-box {
+  border-radius: 0 0 10px 30px;
+  background: rgb(46, 43, 233);
+  background: linear-gradient(0deg, rgb(46, 43, 233) 10%, rgb(120, 87, 255) 90%);
+}/*# sourceMappingURL=main.css.map */
