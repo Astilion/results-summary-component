@@ -120,6 +120,11 @@ body {
 		background-color: hsl(224, 30%, 27%);
 		color: #fff;
 		margin-top: 0.5em;
+		cursor: pointer;
+		&:hover {
+			background: linear-gradient(to bottom, rgba(46, 43, 233, 1) 10%, rgba(120, 87, 255, 1) 90%);
+
+		}
 	}
 }
 

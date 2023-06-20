@@ -110,6 +110,10 @@ body {
   background-color: hsl(224, 30%, 27%);
   color: #fff;
   margin-top: 0.5em;
+  cursor: pointer;
+}
+.container .btn:hover {
+  background: linear-gradient(to bottom, rgb(46, 43, 233) 10%, rgb(120, 87, 255) 90%);
 }
 
 @media (min-width: 992px) {
