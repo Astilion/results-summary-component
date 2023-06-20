@@ -158,4 +158,7 @@ body {
   .container .bars-box {
     justify-content: space-around;
   }
+  .container .bars-box .summary-heading {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=main.css.map */
