@@ -63,20 +63,95 @@ body {
   color: hsl(224, 30%, 27%);
 }
 .container .bars-box .summary-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 0.5em;
   padding: 0.8em;
   font-weight: bold;
   border-radius: 10px;
 }
+.container .bars-box .summary-box .summary-attribute {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 0 0.5em;
+}
+.container .bars-box .summary-box .summary-icon {
+  margin-right: 0.5em;
+}
+.container .bars-box .summary-box .summary-info {
+  color: hsl(224, 30%, 27%);
+}
+.container .bars-box .summary-box .summary-info-gray {
+  color: hsla(224, 30%, 27%, 0.7);
+}
 .container .bars-box .summary-red {
-  background-color: rgba(255, 87, 87, 0.2);
+  background-color: rgba(255, 87, 87, 0.07);
+  color: rgb(255, 87, 87);
 }
 .container .bars-box .summary-yellow {
-  background-color: rgba(255, 176, 31, 0.2);
+  background-color: rgba(255, 176, 31, 0.07);
+  color: rgb(255, 176, 31);
 }
 .container .bars-box .summary-green {
-  background-color: rgba(0, 189, 145, 0.2);
+  background-color: rgba(0, 189, 145, 0.07);
+  color: rgb(0, 189, 145);
 }
 .container .bars-box .summary-blue {
-  background-color: rgba(17, 37, 212, 0.2);
+  background-color: rgba(17, 37, 212, 0.07);
+  color: rgb(17, 37, 212);
+}
+.container .btn {
+  padding: 1em 0.5em;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  color: #fff;
+  margin-top: 0.5em;
+}
+
+@media (min-width: 992px) {
+  body {
+    height: 100vh;
+  }
+  .container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 700px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+  }
+  .container .result-box .result-text {
+    position: relative;
+    top: -7%;
+    font-size: 1.4rem;
+  }
+  .container .result-box .heading-box {
+    width: 170px;
+    height: 170px;
+  }
+  .container .result-box .heading-box .result {
+    font-size: 4rem;
+  }
+  .container .result-box .info-heading {
+    font-size: 1.9rem;
+  }
+  .container .result-box .info-text {
+    padding: 0 1em;
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
+  .container .box {
+    border-radius: 30px;
+  }
+  .container .bars-box {
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=main.css.map */
